@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from "styled-components";
+import { Fade as Hamburger } from 'hamburger-react'
 
 
 const Header = () => {
 
+    const [isMobile,setIsMobile] = useState(false);
+
+    console.log(isMobile)
 
     const MenuLinks = () => {
         return (
@@ -27,12 +31,17 @@ const Header = () => {
                     <img src="/img/logo.png" alt="" />
                 </Logo>
                 <Menu>
-                    <MenuList>
-                        <MenuLinks />
-                    </MenuList>
-                    <MenuButton>
-                        <ButtonPrimary>Sign Up</ButtonPrimary>
-                    </MenuButton>
+                    <DesktopMenu>
+                        <MenuList>
+                            <MenuLinks />
+                        </MenuList>
+                        <MenuButton>
+                            <ButtonPrimary>Sign Up</ButtonPrimary>
+                        </MenuButton>
+                    </DesktopMenu>
+                    <MobileMenu>
+                        <Hamburger toggled={isMobile} toggle={setIsMobile} color="#214B85" />
+                    </MobileMenu>
                 </Menu>
             </Wraper>
         </Container>
@@ -51,11 +60,22 @@ export default Header;
 const Container = styled.header`
 
 `;
-const Wraper = styled.header`
+const Wraper = styled.div`
     padding: 1rem 10rem;
     display: flex;
     align-item: center;
     justify-content: space-between;
+
+    @media (max-width: 1200px){
+        padding: 1rem 5rem;
+    }
+    @media (max-width: 800px){
+        padding: 1rem 4rem;
+    }
+    @media (max-width: 700px){
+        padding: 1rem 1rem;
+    }
+    
 `;
 const Logo = styled.div`
 
@@ -68,6 +88,22 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 `;
+
+const DesktopMenu = styled.div`
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+@media (max-width: 900px){
+    display: none;
+}
+`;
+const MobileMenu = styled.div`
+
+@media (min-width: 900px) {
+    display: none;
+  }
+`;
 const MenuList = styled.nav`
 display: flex;
 padding-right: 4rem;
@@ -78,7 +114,7 @@ a{
     color: #214B85;
     font-weight: 500;
     font-size: 16px;
-
+    
     &:hover {
         border-bottom: 2px;
     }
@@ -86,6 +122,7 @@ a{
 
 
 `;
+
 const MenuButton = styled.div`
 
 `;
