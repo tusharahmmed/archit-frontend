@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeroSection, History } from '../components/home';
+import { About, HeroSection, History } from '../components/home';
 import { Header } from '../components/shared';
 
 const HomePage = () => {
@@ -8,6 +8,7 @@ const HomePage = () => {
             <Header />
             <HeroSection />
             <History />
+            <About />
         </>
     );
 };

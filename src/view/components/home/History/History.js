@@ -55,7 +55,7 @@ width: 50%;
     width: 100%;
 }
 `;
-const Title = styled.h2`
+export const Title = styled.h2`
 font-size: 40px;
 color: var(--font-title);
 font-weight: 500;
