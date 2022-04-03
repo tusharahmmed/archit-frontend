@@ -84,7 +84,7 @@ line-height: 80px;
     padding: 1rem 0rem
 }
 `;
-const Description = styled.p`
+export const Description = styled.p`
 font-size: 16px;
 font-weight: 400;
 color: var(--font-description);
