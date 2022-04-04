@@ -88,7 +88,7 @@ padding: 2rem 0rem 9rem;
     padding: 2rem 0rem 4rem;
 }
 `;
-const SubTitle = styled.h4`
+export const SubTitle = styled.h4`
 font-size: 28px;
 font-weight: 500;
 color: var(--font-title);
@@ -105,14 +105,14 @@ align-items: center;
     
 }
 `;
-const Line = styled.span`
+export const Line = styled.span`
 width: 65px;
 height: 2px;
 background: var(--button-background);
 display: inline-block;
 margin-right: 20px;
 `;
-const Title = styled.h2`
+export const Title = styled.h2`
 font-size: 60px;
 line-height: 72px;
 color: var(--font-title);
