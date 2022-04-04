@@ -127,6 +127,9 @@ img{
     @media (max-width: 1200px){
         width: 70%;
     }
+    @media (max-width: 700px){
+        margin: 8rem auto 0;
+    }
 
     
 }
@@ -149,6 +152,9 @@ background: var(--section-background);
 padding-top: 16rem;
 display: flex;
 
+@media (max-width: 700px){
+    padding-top: 10rem;
+}
 
 img{
     width: 100%;
@@ -166,6 +172,11 @@ color: #fff;
     justify-content: space-around;
     padding: 4rem 0rem 2rem;
 } 
+@media (max-width: 700px){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
 
 `;
 const Stats = styled.div`
@@ -181,12 +192,29 @@ justify-content: center;
 @media (max-width: 900px){
     margin-right: 0px;
 }
+@media (max-width: 700px){
+    margin-right: 0px;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #fff;
+}
+
 `;
 const StatsName = styled.p`
 font-size: 25px;
 font-weight: 500;
+
+@media (max-width: 700px){
+    font-size: 15px;
+    
+}
 `;
 const StatsValue = styled.h3`
 font-size: 40px;
 font-weight: 600;
+
+@media (max-width: 700px){
+    font-size: 25px;
+    
+}
 `;
