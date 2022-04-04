@@ -9,30 +9,30 @@ const BluePrint = () => {
             <Item>
                 <Title>3D Modeling</Title>
                 <ItemDescription>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                 </ItemDescription>
                 <LineWraper>
-                    <Line /> <Line/>
+                    <Line /> <Line />
                 </LineWraper>
             </Item>
 
             <Item>
                 <Title>Blue Print Design</Title>
                 <ItemDescription>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                 </ItemDescription>
                 <LineWraper>
-                    <Line /> <Line/>
+                    <Line /> <Line />
                 </LineWraper>
             </Item>
 
             <Item>
                 <Title>Unique Design</Title>
                 <ItemDescription>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
                 </ItemDescription>
                 <LineWraper>
-                    <Line /> <Line/>
+                    <Line /> <Line />
                 </LineWraper>
             </Item>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { About, BluePrint, HeroSection, History } from '../components/home';
+import { About, BluePrint, HeroSection, History, Service } from '../components/home';
 import { Header } from '../components/shared';
 
 const HomePage = () => {
@@ -10,6 +10,7 @@ const HomePage = () => {
             <History />
             <About />
             <BluePrint />
+            <Service />
         </>
     );
 };

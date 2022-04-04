@@ -5,7 +5,7 @@ import { Fade as Hamburger } from 'hamburger-react'
 
 const Header = () => {
 
-    const [isMobile,setIsMobile] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
 
     console.log(isMobile)
 

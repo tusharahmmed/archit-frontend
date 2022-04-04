@@ -70,7 +70,7 @@ line-height: 52px;
     line-height: 36px;
 }
 `;
-const SubWraper= styled.div`
+const SubWraper = styled.div`
 display: flex;
 align-items: center;
 margin-top: 25px;
