@@ -69,21 +69,22 @@ export default WhyUs;
 
 
 const Container = styled.section`
-padding: 2rem 10rem 0rem;
+padding: 6rem 10rem 0rem;
+background: var(--section-background);
 
 @media (max-width: 1200px){
-    padding: 2rem 5rem 0rem;
+    padding: 6rem 5rem 0rem;
 }
 @media (max-width: 900px){
-    padding: 2rem 4rem 0rem;
+    padding: 4rem 4rem 0rem;
     flex-direction: column;
 }
 @media (max-width: 800px){
-    padding: 2rem 4rem 0rem;
+    padding: 4rem 4rem 0rem;
     flex-direction: column;
 }
 @media (max-width: 700px){
-    padding: 1rem 1rem 0rem;
+    padding: 4rem 1rem 0rem;
 }
 `;
 
@@ -98,6 +99,8 @@ display: flex;
 
 const LeftContent = styled.div`
 width: 50%;
+padding-bottom: 2rem;
+
 @media (max-width: 900px){
     width: 100%;
 }

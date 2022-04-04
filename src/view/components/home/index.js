@@ -4,5 +4,6 @@ import About from "./About/About";
 import BluePrint from "./BluePrint/BluePrint";
 import Service from "./Service/Service";
 import WhyUs from "./WhyUs/WhyUs";
+import Team from "./Team/Team";
 
-export { HeroSection, History, About, BluePrint, Service, WhyUs };
+export { HeroSection, History, About, BluePrint, Service, WhyUs, Team };
