@@ -56,6 +56,7 @@ padding: 0rem 2rem 0rem 10rem;
 `;
 const LeftContent = styled.div`
 width:50%;
+padding: 5rem 0rem;
 @media (max-width: 900px){
     width: 90%;
     padding: 4rem 0rem;
@@ -145,7 +146,7 @@ transition: all 0.3s ease 0s;
 const RightContent = styled.div`
 display: flex;
 justify-content: end;
-width: 30%;
+width: 50%;
 @media (max-width: 900px){
     width: 90%;
     margin-top: 30px;
@@ -157,7 +158,7 @@ width: 30%;
 
 
 img{
-    width: 168%;
+    width: 100%;
 
     @media (max-width: 900px){
         width: 100%;

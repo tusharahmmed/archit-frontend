@@ -84,7 +84,7 @@ padding: 6rem 10rem 4rem;
     padding: 4rem 4rem;
 }
 @media (max-width: 700px){
-    padding: 6rem 1rem;
+    padding: 6rem 1rem 2rem;
 }
 `;
 
