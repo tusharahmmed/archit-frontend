@@ -1,6 +1,6 @@
 import React from 'react';
 import { About, Blog, BluePrint, HeroSection, History, Service, Team, Testimonial, WhyUs } from '../components/home';
-import { Header } from '../components/shared';
+import { Footer, Header } from '../components/shared';
 
 const HomePage = () => {
     return (
@@ -15,6 +15,7 @@ const HomePage = () => {
             <Team />
             <Blog />
             <Testimonial />
+            <Footer />
         </>
     );
 };
