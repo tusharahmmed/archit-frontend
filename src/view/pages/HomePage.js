@@ -1,5 +1,5 @@
 import React from 'react';
-import { About, Blog, BluePrint, HeroSection, History, Service, Team, WhyUs } from '../components/home';
+import { About, Blog, BluePrint, HeroSection, History, Service, Team, Testimonial, WhyUs } from '../components/home';
 import { Header } from '../components/shared';
 
 const HomePage = () => {
@@ -14,6 +14,7 @@ const HomePage = () => {
             <WhyUs />
             <Team />
             <Blog />
+            <Testimonial />
         </>
     );
 };
