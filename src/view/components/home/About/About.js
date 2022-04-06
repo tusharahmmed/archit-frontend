@@ -74,11 +74,13 @@ const Container = styled.section`
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-column-gap: 40px;
-
 margin: 3rem 0rem;
 
 @media (max-width: 900px){
     grid-template-columns: 1fr;
+}
+@media (max-width: 700px){
+    width: 99%;
 }
 `;
 
