@@ -6,7 +6,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Team = () => {
     return (
-        <Container>
+        <Container id='team'>
 
             <TitleSection>
                 <SubTitle><Line /> Team</SubTitle>

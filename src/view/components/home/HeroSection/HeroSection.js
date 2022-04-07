@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const HeroSection = () => {
     return (
-        <Container>
+        <Container id='home'>
             <Wraper>
                 <LeftContent>
                     <Title>Build Your <br /> Dream House</Title>

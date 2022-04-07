@@ -5,7 +5,7 @@ import { Title } from '../History/History';
 
 const About = () => {
     return (
-        <Container>
+        <Container id='about'>
 
             <LeftContent>
 
