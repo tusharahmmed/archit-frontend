@@ -79,12 +79,21 @@ padding: 6rem 10rem 4rem;
 }
 @media (max-width: 900px){
     padding: 4rem 4rem;
+
+    padding-top: 6rem;
+    margin-top: -2rem;
 }
 @media (max-width: 800px){
     padding: 4rem 4rem;
+
+    padding-top: 6rem;
+    margin-top: -2rem;
 }
 @media (max-width: 700px){
     padding: 6rem 1rem 2rem;
+
+    padding-top: 8rem;
+    margin-top: -2rem;
 }
 `;
 

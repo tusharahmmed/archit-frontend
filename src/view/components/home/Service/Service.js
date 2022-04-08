@@ -66,22 +66,37 @@ export default Service;
 const Container = styled.section`
 padding: 3rem 10rem 6rem;
 
+padding-top: 4rem;
+margin-top: -1rem;
+
 @media (max-width: 1200px){
     padding: 3rem 5rem 6rem;
+
+    padding-top: 4rem;
+    margin-top: -1rem;
 }
 @media (max-width: 900px){
     padding: 3rem 4rem 6rem;
     flex-direction: column;
+
+    padding-top: 4rem;
+    margin-top: -1rem;
 }
 @media (max-width: 800px){
     padding: 3rem 4rem 6rem;
     flex-direction: column;
+
+    padding-top: 4rem;
+    margin-top: -1rem;
 }
 @media (max-width: 700px){
     padding: 3rem 1rem 6rem;
+
+    padding-top: 6rem;
+    margin-top: -3rem;
 }
 `;
-const Heading = styled.section`
+const Heading = styled.div`
 padding: 2rem 0rem 9rem;
 
 @media (max-width: 900px){

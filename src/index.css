@@ -29,4 +29,7 @@ body {
   .swiper-slide {
     flex-direction: column;
   }
+  #last-bloginfo{
+    padding-bottom: 30px;
+  }
 }

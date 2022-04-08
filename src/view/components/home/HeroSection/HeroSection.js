@@ -39,19 +39,34 @@ align-items: center;
 justify-content: space-between;
 padding: 0rem 2rem 0rem 10rem;
 
+padding-top: 88px;
+margin-top: -88px;
+
 @media (max-width: 1200px){
     padding: 0rem 1rem  0rem 5rem;
+
+    padding-top: 88px;
+    margin-top: -88px;
 }
 @media (max-width: 900px){
     padding: 0rem 1rem 0rem 4rem;
     flex-direction: column;
+
+    padding-top: 88px;
+    margin-top: -88px;
 }
 @media (max-width: 800px){
     padding: 0rem 1rem 0rem 4rem;
     flex-direction: column;
+
+    padding-top: 88px;
+    margin-top: -88px;
 }
 @media (max-width: 700px){
     padding: 0rem 1rem 0rem 1rem;
+
+    padding-top: 88px;
+    margin-top: -88px;
 }
 `;
 const LeftContent = styled.div`

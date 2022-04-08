@@ -56,7 +56,7 @@ const Blog = () => {
                         <img src="/img/blog-3.png" alt="blog-thumbnail" />
                     </BlogThumbnail>
 
-                    <BlogInfo className="blog-info">
+                    <BlogInfo id='last-bloginfo' className="blog-info">
 
                         <BlogMeta>
                             <p>By Admin</p>

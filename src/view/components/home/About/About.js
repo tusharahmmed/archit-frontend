@@ -78,9 +78,14 @@ margin: 3rem 0rem;
 
 @media (max-width: 900px){
     grid-template-columns: 1fr;
+
+    padding-top: 88px;
+    margin-top: -88px;
 }
 @media (max-width: 700px){
     width: 99%;
+    padding-top: 88px;
+    margin-top: -88px;
 }
 `;
 
